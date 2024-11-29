@@ -1,0 +1,48 @@
+.auth {
+    width: 100px;
+    margin: 8em auto;
+}
+
+.home {
+    font-size: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header-title {
+    margin-left: 0; 
+    padding-left: 0px; 
+}
+
+header {
+    position: relative;
+    width: 100%;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+
+header h1 {
+    display: inline-block;
+    color: white;
+    padding-top: 20px;
+    padding-left: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header nav {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    font-weight: bolder;
+}
+
+header nav>* {
+    float: left;
+}
+
+#user,
+#guest {
+    margin: 0;
+    padding: 0;
+}

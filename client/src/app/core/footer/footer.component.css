@@ -1,0 +1,19 @@
+footer {
+    margin-top: 25px;
+    color: white;
+    text-align: center;
+    padding: 5px 0px ;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 10px 0;
+    color: #cbc9c9; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

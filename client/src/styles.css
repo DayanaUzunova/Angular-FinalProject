@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-image: url('/background.jpg');
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header,
+footer {
+    width: 100%;
+    overflow: hidden;
+    color: white;
+}
+
+a {
+    font-style: inherit;
+    text-decoration: none;
+    color: white;
+    margin: 0 0.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a:hover {
+    cursor: pointer;
+    color: rgb(204, 144, 131);
+}

@@ -1,0 +1,8 @@
+<div class="container">
+  <img [src]="course.image" alt="Course Image" class="container-image" />
+  <h2 class="container-title">{{ course.title }}</h2>
+  <p class="container-author">by {{ course.author }}</p>
+  <div class="overlay">
+    <a [routerLink]="['/courses', course._id]" class="details-button">Show Details</a>
+  </div>
+</div>

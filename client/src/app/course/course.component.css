@@ -1,0 +1,75 @@
+.container {
+  margin-top: 30px;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 150px;
+  height: 280px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s, background-color 0.3s; 
+}
+
+.container:hover {
+  background-color: rgba(0, 0, 0, 0.1); 
+  transform: scale(1.05); 
+}
+
+.container-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 4px;
+  transition: opacity 0.3s;
+}
+
+.container-title {
+  font-size: 1.1rem;
+  margin: 12px 0;
+  color: white;
+}
+
+.container-author {
+  font-size: 1rem;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.container-description {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0; 
+  transition: opacity 0.3s;
+}
+
+.container:hover .overlay {
+  opacity: 1; 
+}
+
+.details-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.details-button:hover {
+  background-color: #0056b3; 
+}

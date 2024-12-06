@@ -1,0 +1,4 @@
+<div class="catalog" *ngIf="!isLoading">
+  <app-course *ngFor="let course of courses" [course]="course"></app-course>
+</div>
+<p class="space"></p>

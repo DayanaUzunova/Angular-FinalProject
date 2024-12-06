@@ -1,17 +1,17 @@
-<header>
-    <h1 class="header-title"><a routerLink="/">Courses Management System</a></h1>
-    <nav>
-        <a routerLink="/">All Courses</a>
-                <div id="user">
-                    <a routerLink="/">Create Course</a>
-                    <a routerLink='/'>Search</a>
-                    <a routerLink="/">Logout</a>
-                </div>
+<header class="navigation">
+  <div class="nav-left">
+    <a routerLink="/home" class="nav-item">Courses Management System</a>
+    <a routerLink="/catalog" class="nav-item">All Courses</a>
+    <a routerLink="/about" class="nav-item">About</a>
+  </div>
 
-                <div id="guest">
-                    <a routerLink='/'>Search</a>
-                    <a routerLink="/">Login</a>
-                    <a routerLink="/">Register</a>
-                </div>
-    </nav>
+  <div class="nav-right">
+    @if(isLoggedIn) {
+      <a routerLink="/add-course" class="nav-item">Add Course</a>
+      <a (click)="logout()" class="nav-item">Logout</a>
+    } @else {
+      <a routerLink="/login" class="nav-item">Login</a>
+      <a routerLink="/register" class="nav-item">Register</a>
+    }
+  </div>
 </header>

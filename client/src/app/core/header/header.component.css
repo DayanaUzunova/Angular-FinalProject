@@ -1,48 +1,45 @@
-.auth {
-    width: 100px;
-    margin: 8em auto;
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1.2rem;
+  font-family: 'Libre Baskerville', serif;
+  position: relative;
+  z-index: 10;
 }
 
-.home {
-    font-size: auto;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.nav-left,
+.nav-right {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
 }
 
-.header-title {
-    margin-left: 0; 
-    padding-left: 0px; 
+.nav-item {
+  text-decoration: none;
+  color: #e3e3e3;
+  font-size: 1.6rem;
+  transition: color 0.3s;
+  font-weight: bold;
 }
 
-header {
-    position: relative;
-    width: 100%;
-    border-radius: 5px;
-    padding-top: 20px;
+.nav-item:hover {
+  color: #9b8481;
 }
 
-header h1 {
-    display: inline-block;
-    color: white;
-    padding-top: 20px;
-    padding-left: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.nav-right .nav-item {
+  font-weight: bold;
 }
 
-header nav {
-    font-size: 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    position: absolute;
-    right: 25px;
-    bottom: 25px;
-    font-weight: bolder;
-}
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
 
-header nav>* {
-    float: left;
-}
-
-#user,
-#guest {
-    margin: 0;
-    padding: 0;
+  .nav-left,
+  .nav-right {
+    justify-content: center;
+    gap: 0.5rem;
+  }
 }

@@ -1,7 +1,7 @@
 #welcome-world {
     width: auto;
     padding-right: 15px;
-    padding-top: 6em;
+    padding-top: 5em;
     padding-left: 15px;
     position: relative;
     box-sizing: border-box;
@@ -26,7 +26,7 @@
     display: inline-block;
     vertical-align: middle;
     margin: 20px auto;
-    max-width: 220px;
+    max-width: 200px;
 }
 
 .welcome-message h2 {
@@ -48,7 +48,7 @@
     text-transform: uppercase;
     text-shadow: 0 2px 4.8px rgba(0, 0, 0, 0.3);
     font-family: "Agency FB";
-    margin: 30px;
+    margin: 15px;
 }
 
 

@@ -1,0 +1,59 @@
+[
+    {
+      "title": "Web Development",
+      "description": "Learn the basics of creating websites using HTML, CSS, and JavaScript.",
+      "category": "Programming",
+      "image": "images/web-development.jpg",
+      "author": "John Doe"
+    },
+    {
+      "title": "Python Programming",
+      "description": "Master advanced Python techniques including generators, decorators, and asynchronous programming.",
+      "category": "Programming",
+      "image": "images/python-advanced.jpg",
+      "author": "Jane Smith"
+    },
+    {
+      "title": "Digital Marketing Strategies",
+      "description": "Understand the principles of SEO, social media marketing, and email campaigns.",
+      "category": "Marketing",
+      "image": "images/digital-marketing.jpg",
+      "author": "Emily Johnson"
+    },
+    {
+      "title": "Data Science with R",
+      "description": "Learn how to analyze and visualize data using R programming.",
+      "category": "Data Science",
+      "image": "images/data-science-r.jpg",
+      "author": "Michael Brown"
+    },
+    {
+      "title": "Graphic Design Basics",
+      "description": "Explore design principles and tools like Adobe Photoshop and Illustrator.",
+      "category": "Design",
+      "image": "images/graphic-design.jpg",
+      "author": "Sarah Davis"
+    },
+    {
+      "title": "Cybersecurity",
+      "description": "Discover the basics of cybersecurity and how to protect systems against threats.",
+      "category": "IT Security",
+      "image": "images/cybersecurity-intro.jpg",
+      "author": "Chris White"
+    },
+    {
+      "title": "Public Speaking Mastery",
+      "description": "Improve your public speaking skills with practical techniques and tips.",
+      "category": "Communication",
+      "image": "images/public-speaking.jpg",
+      "author": "Laura Green"
+    },
+    {
+      "title": "Photography Essentials",
+      "description": "Learn the fundamentals of photography, including lighting techniques.",
+      "category": "Photography",
+      "image": "images/photography-essentials.jpg",
+      "author": "David Black"
+    }
+  ]
+  

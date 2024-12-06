@@ -1,3 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+}
+
 body {
     background-image: url('/background.jpg');
     background-attachment: fixed;
@@ -5,13 +10,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-header,
-footer {
-    width: 100%;
-    overflow: hidden;
-    color: white;
 }
 
 a {

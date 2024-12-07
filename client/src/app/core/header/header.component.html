@@ -1,17 +1,18 @@
 <header class="navigation">
   <div class="nav-left">
-    <a routerLink="/home" class="nav-item">Courses Management System</a>
-    <a routerLink="/catalog" class="nav-item">All Courses</a>
-    <a routerLink="/about" class="nav-item">About</a>
+    <a routerLink="/home" class="nav-item">COURSES MANAGEMENT SYSTEM</a>
+    <a routerLink="/catalog" class="nav-item">ALL COURSES</a>
+    <a routerLink="/about" class="nav-item">ABOUT</a>
   </div>
 
   <div class="nav-right">
     @if(isLoggedIn) {
-      <a routerLink="/add-course" class="nav-item">Add Course</a>
-      <a (click)="logout()" class="nav-item">Logout</a>
+      <a routerLink="/search" class="nav-item">SEARCH</a>
+      <a routerLink="/add-course" class="nav-item">ADD COURSE</a>
+      <a (click)="logout()" class="nav-item">LOGOUT</a>
     } @else {
-      <a routerLink="/login" class="nav-item">Login</a>
-      <a routerLink="/register" class="nav-item">Register</a>
+      <a routerLink="/login" class="nav-item">LOGIN</a>
+      <a routerLink="/register" class="nav-item">REGISTER</a>
     }
   </div>
 </header>

@@ -20,15 +20,10 @@
   color: #e3e3e3;
   font-size: 1.6rem;
   transition: color 0.3s;
-  font-weight: bold;
 }
 
 .nav-item:hover {
   color: #9b8481;
-}
-
-.nav-right .nav-item {
-  font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {

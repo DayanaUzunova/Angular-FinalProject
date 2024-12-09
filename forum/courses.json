@@ -1,56 +1,56 @@
 [
     {
       "title": "Web Development",
-      "description": "Learn the basics of creating websites using HTML, CSS, and JavaScript.",
+      "description": "This comprehensive course introduces you to the fundamental principles and practical skills of web development. Whether you're a beginner or looking to enhance your existing knowledge, this course covers essential topics like HTML, CSS, JavaScript, and popular frameworks. You'll learn how to design responsive, user-friendly websites and develop interactive web applications using industry-standard tools and practices. By the end of this course, you’ll have the skills and confidence to create your own web projects and contribute to real-world applications!",
       "category": "Programming",
       "image": "images/web-development.jpg",
       "author": "John Doe"
     },
     {
       "title": "Python Programming",
-      "description": "Master advanced Python techniques including generators, decorators, and asynchronous programming.",
+      "description": "Dive into the world of programming with this comprehensive Python course, designed to teach you the skills and concepts needed to master one of the most popular and versatile programming languages. Perfect for both beginners and those seeking to refine their knowledge, this course covers key topics such as variables, loops, functions, and libraries. By the end of this course, you’ll be equipped with the tools and knowledge to create powerful Python applications, solve complex challenges, and take your programming skills to the next level!",
       "category": "Programming",
       "image": "images/python-advanced.jpg",
       "author": "Jane Smith"
     },
     {
       "title": "Digital Marketing Strategies",
-      "description": "Understand the principles of SEO, social media marketing, and email campaigns.",
+      "description": "Master the art of promoting businesses in the digital age with this comprehensive course on Digital Marketing Strategies. Designed for beginners and marketing professionals alike, this course covers essential topics such as social media marketing, search engine optimization (SEO), pay-per-click (PPC) advertising, email campaigns, and content marketing. By the end of this course, you’ll have the skills to design and execute effective marketing campaigns, drive traffic, and grow your brand or business with confidence!",
       "category": "Marketing",
       "image": "images/digital-marketing.jpg",
       "author": "Emily Johnson"
     },
     {
       "title": "Data Science with R",
-      "description": "Learn how to analyze and visualize data using R programming.",
+      "description": "Unlock the power of data with this comprehensive course on Data Science with R. Whether you're new to data science or looking to deepen your expertise, this course covers essential topics such as data manipulation, visualization, statistical analysis, and machine learning using R programming. You’ll learn how to work with real-world datasets, create insightful visualizations, and build predictive models. By the end of this course, you’ll have the skills to analyze complex data, uncover valuable insights, and apply data-driven solutions!",
       "category": "Data Science",
       "image": "images/data-science-r.jpg",
       "author": "Michael Brown"
     },
     {
       "title": "Graphic Design Basics",
-      "description": "Explore design principles and tools like Adobe Photoshop and Illustrator.",
+      "description": "Discover the fundamentals of creativity and visual communication with this comprehensive course on Graphic Design Basics. Perfect for beginners and aspiring designers, this course introduces essential design principles, including color theory, typography, composition, and branding. You’ll gain hands-on experience using industry-standard tools like Adobe Photoshop, Illustrator, and Canva. By the end of this course, you’ll have the skills and confidence to create professional-quality designs and bring your creative ideas to life!",
       "category": "Design",
       "image": "images/graphic-design.jpg",
       "author": "Sarah Davis"
     },
     {
       "title": "Cybersecurity",
-      "description": "Discover the basics of cybersecurity and how to protect systems against threats.",
+      "description": "Protect digital assets and safeguard sensitive information with this comprehensive course on Cybersecurity. Designed for beginners and IT professionals, this course covers key concepts such as threat identification, network security, encryption, and ethical hacking. You’ll learn how to identify vulnerabilities, implement robust security measures, and respond to cyber threats effectively. By the end of this course, you’ll have the knowledge and tools to strengthen cybersecurity defenses, ensure data protection, and contribute to creating a safer digital environment!",
       "category": "IT Security",
       "image": "images/cybersecurity-intro.jpg",
       "author": "Chris White"
     },
     {
       "title": "Public Speaking Mastery",
-      "description": "Improve your public speaking skills with practical techniques and tips.",
+      "description": "Master the art of confident and impactful communication with this comprehensive course on Public Speaking. Whether you're a beginner or looking to refine your presentation skills, this course covers essential techniques such as speech preparation, audience engagement, overcoming stage fright, and delivering persuasive messages. You’ll learn how to craft compelling presentations, use body language effectively. By the end of this course, you’ll have the skills and poise to deliver powerful speeches and presentations that captivate and inspire any audience!",
       "category": "Communication",
       "image": "images/public-speaking.jpg",
       "author": "Laura Green"
     },
     {
       "title": "Photography Essentials",
-      "description": "Learn the fundamentals of photography, including lighting techniques.",
+      "description": "Capture the world through your lens with this comprehensive course on Photography Essentials. Perfect for beginners and hobbyists, this course covers the foundational principles of photography, including camera settings, composition, lighting, and post-processing techniques. You’ll learn how to use your camera effectively, whether it’s a DSLR, mirrorless, or smartphone. By the end of this course, you’ll have the skills and confidence to take professional-quality photographs and express your creative vision through compelling imagery!",
       "category": "Photography",
       "image": "images/photography-essentials.jpg",
       "author": "David Black"

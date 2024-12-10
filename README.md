@@ -17,7 +17,7 @@ Angular CLI (install globally using npm install -g @angular/cli)
 git clone https://github.com/DayanaUzunova/Angular-FinalProject
 ```
 ## To see my database:
-My database is in the forum folder.
+My database is in the forum folder. I am using MongoDB.
 
 ## Open two terminals:
 First Terminal (Node.js server): 

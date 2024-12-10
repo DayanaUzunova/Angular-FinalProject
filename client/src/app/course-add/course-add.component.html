@@ -1,0 +1,122 @@
+<div class="form-container">
+    <form [formGroup]="form" (ngSubmit)="addCourse()">
+      <fieldset>
+        <h2>ADD COURSE FORM</h2>
+  
+        <div class="form-group">
+          <label for="title">TITLE:</label>
+          <input
+            type="text"
+            id="title"
+            formControlName="title"
+            placeholder="Enter course title here.."
+            [class]="
+              isFieldTextMissing('title')
+                ? 'input-error'
+                : 'input-valid'
+            "
+          />
+          @if(form.get('title')?.touched) {
+            <div>
+              @if(form.get('title')?.errors?.['required']) {
+                <small class="error">Title is required!</small>
+              }
+            </div>
+          }
+        </div>
+  
+
+        <div class="form-group">
+          <label for="author">AUTHOR:</label>
+          <input
+            type="text"
+            id="author"
+            formControlName="author"
+            placeholder="Enter author name here.."
+            [class]="
+              isFieldTextMissing('author')
+                ? 'input-error'
+                : 'input-valid'
+            "
+          />
+          @if(form.get('author')?.touched) {
+            <div>
+              @if(form.get('author')?.errors?.['required']) {
+                <small class="error">Author is required!</small>
+              }
+            </div>
+          }
+        </div>
+  
+        <div class="form-group">
+          <label for="description">DESCRIPTION:</label>
+          <textarea
+            id="description"
+            formControlName="description"
+            placeholder="Enter a description here.."
+            [class]="
+              isFieldTextMissing('description')
+                ? 'input-error'
+                : 'input-valid'
+            "
+          ></textarea>
+          @if(form.get('description')?.touched) {
+            <div>
+              @if(form.get('description')?.errors?.['required']) {
+                <small class="error">Description is required!</small>
+              }
+            </div>
+          }
+        </div>
+  
+ 
+        <div class="form-group">
+          <label for="category">CATEGORY:</label>
+          <input
+            id="category"
+            formControlName="category"
+            placeholder="Enter a category here.."
+            [class]="
+              isFieldTextMissing('category')
+                ? 'input-error'
+                : 'input-valid'
+            "
+          >
+          @if(form.get('category')?.touched) {
+            <div>
+              @if(form.get('category')?.errors?.['required']) {
+                <small class="error">Category is required!</small>
+              }
+            </div>
+          }
+        </div>
+
+        <div class="form-group">
+          <label for="image">IMAGE URL:</label>
+          <input
+            type="text"
+            id="image"
+            formControlName="image"
+            placeholder="Enter image URL here.."
+            [class]="
+              isFieldTextMissing('image')
+                ? 'input-error'
+                : 'input-valid'
+            "
+          />
+          @if(form.get('image')?.touched) {
+            <div>
+              @if(form.get('image')?.errors?.['required']) {
+                <small class="error">Image URL is required!</small>
+              }
+            </div>
+          }
+        </div>
+  
+        <div class="button-container">
+          <button type="submit" [disabled]="form.invalid">ADD COURSE</button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+  

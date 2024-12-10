@@ -1,0 +1,83 @@
+fieldset {
+  border: none;
+}
+
+h2 {
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 10px;
+    font-family: 'Libre Baskerville', serif;
+    background-color: #ffffff;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+  
+  input,
+  textarea {
+    width: 95%;
+    padding: 12px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.3rem;
+  }
+  
+  input::placeholder {
+    font-size: 1.2rem;
+    padding: 5px 0px;
+  }
+
+  textarea::placeholder {
+    font-size: 1.2rem;
+    padding: 5px 0px;
+  }
+
+  .input-error {
+    border-color: red;
+  }
+  
+  small {
+    color: red;
+    font-size: 1.1rem;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+  }
+  
+  button {
+    padding: 0.9rem 3rem;
+    background-color: #413c3b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+  }
+  
+  button:hover:not(:disabled) {
+    background-color: #635b5b;
+  }
+  

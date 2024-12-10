@@ -18,7 +18,7 @@
 
 .course-image{
   width: 350px;
-  height: 490px;
+  height: 480px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(147, 147, 147, 0.502);
 }
@@ -80,8 +80,8 @@
 
 .edit-button,
 .delete-button {
-  padding: 20px 80px;
-  background-color: #17a2b8;
+  padding: 12px 70px;
+  background-color: #007b8e;
   color: rgb(255, 255, 255);
   border: none;
   border-radius: 4px;
@@ -91,14 +91,14 @@
 }
 
 .edit-button:hover {
-  background-color: #0f7b8b;
+  background-color: #139fb4;
 }
 
 .delete-button {
-  background-color: #b00020;
+  background-color: #a4001e;
   color: white;
 }
 
 .delete-button:hover {
-  background-color: #c82333;
+  background-color: #dc293b;
 }

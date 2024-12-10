@@ -20,9 +20,18 @@ git clone https://github.com/DayanaUzunova/Angular-FinalProject
 My database is in the forum folder.
 
 ## Open two terminals:
-First Terminal (Node.js server): cd server
-Second Terminal (Angular Frontend): cd client
-Install Dependencies (node_modules) -> Run the following command in both terminals to install dependencies: npm install
+First Terminal (Node.js server): 
+```bash
+cd server
+npm install 
+```
+
+Second Terminal (Angular Frontend): 
+``` bash
+cd client
+npm install
+```
+npm install - Install Dependencies (node_modules)
 
 ## To start the server(in the first terminal):
 ```bash

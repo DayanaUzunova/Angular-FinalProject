@@ -1,0 +1,26 @@
+<div class="search-container">
+    <input
+      type="text"
+      placeholder="Search for courses..."
+      [(ngModel)]="searchTerm"
+      (input)="onSearch()"
+      class="search-input"
+    />
+  </div>
+  <div class="container">
+  <div class="course-list" *ngIf="filteredCourses.length; else noResults">
+    <div *ngFor="let course of filteredCourses" class="course-card">
+      <div class="course-details">
+        <h2>{{ course.title }}</h2>
+        <p class="category"><strong>Category:</strong> {{ course.category }}</p>
+        <p><strong>Author:</strong> {{ course.author }}</p>
+        <button [routerLink]="['/courses', course._id]" class="details-button">Show Details</button>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  <ng-template #noResults>
+    <p class="no-courses">NO COURSES FOUND MATCHING YOUR SEARCH CRITERIA.</p>
+  </ng-template>
+  

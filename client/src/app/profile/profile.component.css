@@ -1,0 +1,57 @@
+.catalog-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 2rem;
+    border-radius: 3px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    border: 1px solid white;
+    background-color: rgba(50, 50, 50, 0.379);
+}
+
+.catalog-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #f8f8f8;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+.catalog-container h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #f8f8f8;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.catalog-container p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin: 0.8rem 0;
+    color: #e0e0e0;
+}
+
+.catalog > app-course {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 0.1rem;
+    text-align: center;
+}
+
+.catalog > app-course:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.catalog-container p.no-courses {
+    font-size: 2rem;
+    line-height: 1.8;
+    padding-top: 90px;
+    padding-bottom: 160px;
+    font-weight: 900;
+    text-align: center;
+    color: #e0e0e0;
+}

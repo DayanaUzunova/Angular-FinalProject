@@ -14,7 +14,7 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./profile.component.css'],
 })
 export class ProfileComponent implements OnInit {
-  user: UserForAuth | null = null; // Съхраняване на данни за потребителя
+  user: UserForAuth | null = null; 
   courses: Course[] = [];
 
   constructor(private userService: UserService, private apiService: ApiService) {}
@@ -22,7 +22,7 @@ export class ProfileComponent implements OnInit {
   ngOnInit(): void {
     this.userService.getProfile().subscribe({
       next: (user) => {
-        this.user = user; // Запазване на данните за потребителя
+        this.user = user; 
         if (user.courses && user.courses.length > 0) {
           this.apiService.getCourses().subscribe((allCourses) => {
             this.courses = allCourses.filter((course) => user.courses.includes(course._id));

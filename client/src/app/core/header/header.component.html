@@ -9,6 +9,7 @@
     @if(isLoggedIn) {
       <a routerLink="/search" class="nav-item">SEARCH</a>
       <a routerLink="/add-course" class="nav-item">ADD COURSE</a>
+      <a routerLink="/profile" class="nav-item">PROFILE</a>
       <a (click)="logout()" class="nav-item">LOGOUT</a>
     } @else {
       <a routerLink="/login" class="nav-item">LOGIN</a>
